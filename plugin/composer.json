@@ -1,0 +1,15 @@
+{
+    "name": "marino/movie",
+    "description": "An assignment plugin for Q Agency",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Movie\\Includes\\": "includes/",
+            "Movie\\Admin\\": "admin/",
+            "Movie\\Frontend\\": "public/"
+        }
+    }
+}
